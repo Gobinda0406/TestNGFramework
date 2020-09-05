@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestScripts.TestCase02">
+        <methods>
+          <include name="clickRoundTrip"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase02 -->
+      <class name="TestScripts.TestCase01">
+        <methods>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase01 -->
+      <class name="TestScripts.TestCase03">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

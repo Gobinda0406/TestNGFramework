@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]" parallel="tests">
+  <test name="Login Testcase01(failed)" parallel="tests">
+    <classes>
+      <class name="TestScripts.TestCase02">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase02 -->
+      <class name="TestScripts.TestCase03">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase03 -->
+      <class name="TestScripts.TestCase01">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase01 -->
+    </classes>
+  </test> <!-- Login Testcase01(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

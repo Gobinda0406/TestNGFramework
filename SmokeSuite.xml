@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="tests">
+	<test name="Login Testcase01">
+		<classes>
+			<class name="TestScripts.TestCase01" />
+		</classes>
+	</test>
+
+	<test name="Login Testcase02">
+		<classes>
+			<class name="TestScripts.TestCase02" />
+		</classes>
+	</test>
+
+	<test name="Login Testcase03">
+		<classes>
+			<class name="TestScripts.TestCase03" />
+		</classes>
+	</test>
+
+</suite> <!-- SmokeSuite -->
