@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="17482" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:31Z">
+    <groups>
+    </groups>
+    <test name="Login Testcase01" duration-ms="9142" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:23Z">
+      <class name="TestScripts.TestCase01">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestScripts.TestCase01@7e0babb1]" name="setup" is-config="true" duration-ms="1664" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:TestScripts.TestCase01@7e0babb1]" name="invalidLogin" duration-ms="7341" started-at="2020-09-09T17:32:15Z" finished-at="2020-09-09T17:32:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestScripts.TestCase01@7e0babb1]" name="quit" is-config="true" duration-ms="124" started-at="2020-09-09T17:32:22Z" finished-at="2020-09-09T17:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestScripts.TestCase01 -->
+    </test> <!-- Login Testcase01 -->
+    <test name="Login Testcase03" duration-ms="13382" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:27Z">
+      <class name="TestScripts.TestCase03">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestScripts.TestCase03@880ec60]" name="setup" is-config="true" duration-ms="9567" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchCity()[pri:0, instance:TestScripts.TestCase03@880ec60]" name="SearchCity" duration-ms="3749" started-at="2020-09-09T17:32:23Z" finished-at="2020-09-09T17:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCity -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestScripts.TestCase03@880ec60]" name="quit" is-config="true" duration-ms="66" started-at="2020-09-09T17:32:27Z" finished-at="2020-09-09T17:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestScripts.TestCase03 -->
+    </test> <!-- Login Testcase03 -->
+    <test name="Login Testcase02" duration-ms="17477" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:31Z">
+      <class name="TestScripts.TestCase02">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestScripts.TestCase02@6a5fc7f7]" name="setup" is-config="true" duration-ms="13822" started-at="2020-09-09T17:32:13Z" finished-at="2020-09-09T17:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickRoundTrip()[pri:0, instance:TestScripts.TestCase02@6a5fc7f7]" name="clickRoundTrip" duration-ms="3582" started-at="2020-09-09T17:32:27Z" finished-at="2020-09-09T17:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRoundTrip -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestScripts.TestCase02@6a5fc7f7]" name="quit" is-config="true" duration-ms="72" started-at="2020-09-09T17:32:31Z" finished-at="2020-09-09T17:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestScripts.TestCase02 -->
+    </test> <!-- Login Testcase02 -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

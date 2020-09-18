@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]" parallel="tests">
+  <test thread-count="5" name="Login Testcase03(failed)" parallel="tests">
+    <classes>
+      <class name="TestScripts.TestCase03">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="SearchCity"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase03 -->
+    </classes>
+  </test> <!-- Login Testcase03(failed) -->
+  <test thread-count="5" name="Login Testcase01(failed)" parallel="tests">
+    <classes>
+      <class name="TestScripts.TestCase01">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase01 -->
+    </classes>
+  </test> <!-- Login Testcase01(failed) -->
+  <test thread-count="5" name="Login Testcase02(failed)" parallel="tests">
+    <classes>
+      <class name="TestScripts.TestCase02">
+        <methods>
+          <include name="setup"/>
+          <include name="clickRoundTrip"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestScripts.TestCase02 -->
+    </classes>
+  </test> <!-- Login Testcase02(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

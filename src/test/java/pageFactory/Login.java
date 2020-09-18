@@ -1,5 +1,6 @@
 package pageFactory;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,15 +33,23 @@ public class Login {
 	}
 
 	public void launchURL() {
-		
+		driver.navigate().to("http://yatra.com");
 		wait.until(ExpectedConditions.visibilityOf(this.myAccount));
 	}
 
 	public void clickLoginButton() throws InterruptedException {
+		try{
 		wait.until(ExpectedConditions.visibilityOf(this.myAccount));
-		myAccount.click();
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].click()", myAccount);
+
 		Thread.sleep(1000);
-		loginButton.click();
+		JavascriptExecutor jse1 = (JavascriptExecutor)driver;
+		jse1.executeScript("arguments[0].click()", loginButton);
+
+		}catch(Exception e){
+			System.out.println(e.toString());
+		}
 
 	}
 
