@@ -8,6 +8,8 @@ public class TestPage {
 		
 	}
 	public void testMethod2(int i){
+	}
+	public void wow5(){
 		
 	}
 
