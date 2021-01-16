@@ -1,7 +1,7 @@
 package newFeature;
 
 public class TestPage {
-	
+
 	int k;String str;
 	
 	public void testMethod(int i){
