@@ -10,7 +10,7 @@ public class CartFeature {
 		
 	}
 
-	public void doe(){
+	public void doee(){
 		System.out.println("Test2");
 	}
 	int x;
