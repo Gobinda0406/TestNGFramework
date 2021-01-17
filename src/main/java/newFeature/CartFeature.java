@@ -13,9 +13,13 @@ public class CartFeature {
 	public void doe(){
 		System.out.println("Test");
 	}
+	int x;
+	public void master1(int x){
+		System.out.println(x);
+	}
 	
-	int k,z;
-	public void check1(int y, int z){
-		System.out.println(k+z);
+	int y,z;
+	public void check(int y, int z){
+		System.out.println(y+z);
 	}
 }
