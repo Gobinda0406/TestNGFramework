@@ -13,6 +13,8 @@ public class TestPage {
 	public void wow5(){
 	}
 	
-	
+	public void testFeature1(){
+		
+	}
 
 }
