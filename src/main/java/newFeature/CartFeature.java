@@ -1,7 +1,9 @@
 package newFeature;
 
 public class CartFeature {
+
 	String str="Gobinda";
+
 	public void checkMethod(){
 		
 	}
@@ -10,8 +12,8 @@ public class CartFeature {
 		
 	}
 
-	public void doe(){
-		System.out.println("Test");
+	public void doee(){
+		System.out.println("Test2");
 	}
 	public void doe1(){
 		System.out.println("Test1");
@@ -27,5 +29,9 @@ public class CartFeature {
 	int y,z;
 	public void check(int y, int z){
 		System.out.println(y+z);
+	}
+	
+	public void feature2Method(){
+		System.out.println("feature2 Method");
 	}
 }
